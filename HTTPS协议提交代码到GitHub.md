@@ -1,5 +1,10 @@
 ## HTTPS协议提交代码到GitHub (2018.07.03)
 * 有时候在company只能以代理ip的方式上网，这个时候使用ssh协议的话，好多时候是提交不了代码到远程库的
+* [解决failed to push some refs to git](https://www.jianshu.com/p/835e0a48c825)
+```
+* git pull --rebase origin master   // 拉取远程库代码下来
+* git push -u origin master
+```
 * 使用https协议就可以实现和远程库的协作
 1. `官网下载Git`
 2. `设置用户名和邮箱`
